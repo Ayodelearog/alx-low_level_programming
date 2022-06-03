@@ -6,7 +6,9 @@
  */
 int main(void)
 {
-	if (int i = 'a'; i <= 'z'; i++)
+	int i;
+
+	if (i = 'a'; i <= 'z'; i++)
 	{
 		else if (i != 'q' && i != 'e')
 		{
