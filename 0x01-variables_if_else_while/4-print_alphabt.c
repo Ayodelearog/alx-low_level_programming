@@ -8,7 +8,7 @@ int main(void)
 {
 	int i;
 
-	if (i = 'a'; i <= 'z'; i++)
+	if ((i = 'a'; i <= 'z'; i++))
 	{
 		else if (i != 'q' && i != 'e')
 		{
