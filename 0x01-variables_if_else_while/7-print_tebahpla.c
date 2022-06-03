@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int i = 'a';
+	int i = 'z';
 
-	while (i < 'z')
+	while (i > 'a')
 	{
 		putchar(i);
 		i--;
