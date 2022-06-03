@@ -1,19 +1,18 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
- * main - Entry point
+ * main - Prints alphabet in lowercase
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int x = 'A';
+	int x = 'a';
 
-	while (x <= 'Z')
+	while (x <= 'z')
 	{
-		putchar(tolower(x));
+		putchar(x);
 		x++;
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
