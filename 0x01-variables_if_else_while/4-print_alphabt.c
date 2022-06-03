@@ -10,12 +10,12 @@ int main(void)
 
 	if ((i <= 'z'))
 	{
-		else if (i != 'q' && i != 'e')
-		{
-			putchar(i);
-		}
-		i++;
 	}
+	else if (i != 'q' && i != 'e')
+	{
+		putchar(i);
+	}
+	i++;
 	putchar('\n');
 	return (0);
 }
