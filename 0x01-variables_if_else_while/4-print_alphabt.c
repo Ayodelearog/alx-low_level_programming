@@ -6,10 +6,12 @@
  */
 int main(void)
 {
-	int i;
+	int i = 'a';
 
-	if ((i = 'a'; i <= 'z'; i++))
+	if ((i <= 'z'))
 	{
+		i++
+
 		else if (i != 'q' && i != 'e')
 		{
 			putchar(i);
