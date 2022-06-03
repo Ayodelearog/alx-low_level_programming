@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - prints all single diigit numbers of base 10 starting from 0 without using char or printf
  *
