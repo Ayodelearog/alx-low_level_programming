@@ -10,7 +10,7 @@ int main(void)
 
 	if ((i <= 'z'))
 	{
-		i++
+		i++;
 
 		else if (i != 'q' && i != 'e')
 		{
