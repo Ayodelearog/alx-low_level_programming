@@ -11,9 +11,8 @@ int main(void)
 
 	while (x <= 'Z')
 	{
-        	x = tolower(x);
-        	putchar(x);
-        	x++;
+		putchar(tolower(x));
+		x++;
 	}
 	return (0);
 }
