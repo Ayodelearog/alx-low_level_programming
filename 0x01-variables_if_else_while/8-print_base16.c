@@ -6,19 +6,17 @@
  */
 int main(void)
 {
-	int i = '0'
+	int i = '0', 'a';
 
 	for (i <= '9')
 	{
 		putchar(i);
 		i++;
 	}
-	int i = 'a'
-
 	for (i <= 'f')
 	{
 		putchar(i);
-		i++
+		i++;
 	}
 	putchar('\n';
 	return (0);
