@@ -4,9 +4,9 @@
  *
  * Return: Always 0 (Success)
  */
-int _abs(int)
+int _abs(int i)
 {
-	int i = -8;
+	i = -8;
 
 	_abs(i);
 	_putchar(i);
