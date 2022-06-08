@@ -2,13 +2,16 @@
 /**
  * print_last_digit - creats a function that prints the last didgit of numbers
  *
- * Return: Always 0 (Sccess)
+ * @n: variable subjected to test
+ *
+ * Return: Always 0 (Success)
  */
-int print_last_digit(int i, int j)
+int print_last_digit(int n)
 {
-	int i, j;
-
-	i = j % 10;
-	_putchar(i);
-	return (0);
+	if (n > 0)
+	{
+		n = n *-1;
+		_putchar((n % 10) + '0');
+		return (n % 10);
+	}
 }
