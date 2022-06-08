@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (Sccess)
  */
-int print_last_digit(int)
+int print_last_digit(int i, int j)
 {
 	int i, j;
 
