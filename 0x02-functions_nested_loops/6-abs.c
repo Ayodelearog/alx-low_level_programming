@@ -2,13 +2,15 @@
 /**
  * _abs - computes absolute value of an integer
  *
+ * @i: the integer to be converted
+ *
  * Return: Always 0 (Success)
  */
 int _abs(int i)
 {
-	i = -8;
-
-	_abs(i);
-	_putchar(i);
-	return (0);
+	if (i < 0)
+	{
+		i = i * -1;
+	}
+	return (i);
 }
