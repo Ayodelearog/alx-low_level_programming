@@ -2,8 +2,8 @@
 
 /**
  * print_most_numbers - prints 0 - 9 except 2, 3
- * 
- * Return: void
+ * Description: prints number
+ * Return: void 
  */
 
 void print_most_numbers(void)
