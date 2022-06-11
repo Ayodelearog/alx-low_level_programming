@@ -7,7 +7,7 @@
  *
  * Return: Always 0.
  */
-int main(void)
+int _isupper(int c)
 {
 	char c = 'A';
 
@@ -19,5 +19,6 @@ int main(void)
 	{
 		_putchar('0');
 	}
+	_putchar ('\n');
 	return (0);
 }
