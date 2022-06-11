@@ -7,6 +7,7 @@
  *
  * Return: 1 if it is an uppercasse character or 0 otherwise.
  */
+
 int _isupper(int c)
 {
 
