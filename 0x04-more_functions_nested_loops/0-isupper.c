@@ -11,7 +11,7 @@ int _isupper(int c)
 {
 	char c = 'A';
 
-	if (c == 'A' - 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		_putchar('1');
 	}
