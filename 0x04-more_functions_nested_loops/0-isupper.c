@@ -5,7 +5,7 @@
  *
  * @c: the variable to be tested.
  *
- * Return: Always 0.
+ * Return: 1 if it is an uppercasse character or 0 otherwise.
  */
 int _isupper(int c)
 {
@@ -19,5 +19,4 @@ int _isupper(int c)
 		_putchar('0');
 	}
 	_putchar ('\n');
-	return (0);
 }
