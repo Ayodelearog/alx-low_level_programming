@@ -1,2 +1,1 @@
-This is my ALX repo documenting my journey into low-level programming
-This directory contains files that aims to teach how to use nested loops and functions in C programming language
+This repo contains all my alx directories and files on C programming language and other low_level_programming languages
