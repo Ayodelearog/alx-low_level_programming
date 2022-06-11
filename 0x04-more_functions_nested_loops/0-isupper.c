@@ -11,7 +11,7 @@ int main(void)
 {
 	char c = 'A';
 
-	if (_isupper(int c))
+	if (_isupper(c))
 	{
 		_putchar('1');
 	}
