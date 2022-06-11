@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - prints 0 - 9 except 2, 3
- * Description: prints
+ * 
  * Return: void
  */
 
@@ -16,7 +16,7 @@ void print_most_numbers(void)
 		{
 			_putchar(i + '0');
 		}
-		a++;
+		i++;
 	}
 	_putchar('\n');
 }
