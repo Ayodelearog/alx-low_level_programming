@@ -5,7 +5,6 @@
  *
  * @a: first integer to be swapped
  * @b: second integer to be swapped
- * @temp: temporary variable to be used in swapping a for b
  *
  */
 
