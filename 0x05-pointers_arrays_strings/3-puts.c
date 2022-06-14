@@ -10,7 +10,7 @@
 
 void _puts(char *str)
 {
-	char s = "Hello";
+	str = "Hello";
 
 	_putchar(s);
 }
