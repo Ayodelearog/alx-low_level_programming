@@ -10,10 +10,21 @@
 
 void rev_string(char *s)
 {
-	char c;
+	int len, i, half;
+	char temp;
 
-	c = *(s + begin);
-	*(s + begin) = *(s + end);
-	*(s + end) = c;
-	reverse(s, ++begin, --end);
+	for (len = 0; s[len] != '\0'; len++)
+	{
+		;
+		i = 0;
+		half = len / 2;
+	}
+
+	while (half--)
+	{
+		temp = s[len - i - 1];
+		s[len - i - 1] = s[i];
+		s[i] = temp;
+		i++;
+	}
 }
