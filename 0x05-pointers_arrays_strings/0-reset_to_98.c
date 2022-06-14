@@ -11,10 +11,10 @@
 int main(void)
 {
 	int n;
-	int *n;
+	int *p;
 
 	n = 402;
-	n = &n;
+	p = &n;
 	reset_to_98(n);
 	return (0);
 }
