@@ -12,14 +12,3 @@ void reset_to_98(int *n)
 {
 	*n = 98;
 }
-
-int main(void)
-{
-	int n;
-	int *p;
-
-	n = 402;
-	p = &n;
-	reset_to_98(n);
-	return (0);
-}
