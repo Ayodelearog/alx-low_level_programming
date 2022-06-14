@@ -12,8 +12,8 @@ void rev_string(char *s)
 {
 	char c;
 
-	c = *(x + begin);
-	*(x + begin) = *(x + end);
-	*(x + end) = c;
-	reverse(x, ++begin, --end);
+	c = *(s + begin);
+	*(s + begin) = *(s + end);
+	*(s + end) = c;
+	reverse(s, ++begin, --end);
 }
