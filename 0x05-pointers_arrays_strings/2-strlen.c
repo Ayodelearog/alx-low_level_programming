@@ -5,13 +5,16 @@
  *
  * @s: A string to be tested
  *
- * Return: Always 0
+ * Return: int len (length of string)
  */
 
 int _strlen(char *s)
 {
-	int len;
+	int len = 0;
 
-	_putchar(strlen(s));
-	return (0);
+	while (s[len] != '\0')
+	{
+		len++;
+	}
+	return (len);
 }
