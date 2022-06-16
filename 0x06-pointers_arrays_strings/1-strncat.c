@@ -5,6 +5,7 @@
  * at most n bytes from @src
  * @dest: first variable that holds strings to be concatenated
  * @src: second variable tha holds string to be concatenated
+ * @n: the number of characters to be taken from src 
  * Return: dest
  */
 
