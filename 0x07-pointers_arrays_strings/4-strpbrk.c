@@ -12,7 +12,6 @@ char *_strpbrk(char *s, char *accept)
 {
 	int i = 0;
 	int j = 0;
-
 	int pos = 0;
 	int flg = 0;
 
@@ -20,7 +19,6 @@ char *_strpbrk(char *s, char *accept)
 	{
 		i++;
 	}
-
 	pos = i;
 	i = 0;
 
