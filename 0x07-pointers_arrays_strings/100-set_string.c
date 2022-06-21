@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * ste_string - a function that sets the value of a pointer to a char.
+ * set_string - a function that sets the value of a pointer to a char.
  * @s: the destination char.
  * @to: the source char.
  */
