@@ -28,6 +28,7 @@ char *_strpbrk(char *s, char *accept)
 	while (*(accept + i))
 	{
 		j = 0;
+
 		while (*(s + j))
 		{
 			if (accept[i] == s[j])
