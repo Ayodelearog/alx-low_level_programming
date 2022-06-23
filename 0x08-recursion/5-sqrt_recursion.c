@@ -1,4 +1,5 @@
 #include "main.h"
+int _sqrt(int n, int i);
 
 /**
  * _sqrt_recursion - a function that prints the natural square root of n.
