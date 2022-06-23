@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * is_prime_number - a function that prints a prime number.
+ * is_prime - a function that checks a prime number.
  * @n: the nummber to be printed.
+ * @: the variable that is used to check.
  * Return: 1 if n is a prime number. Otherwise 0.
  */
 
