@@ -2,8 +2,8 @@
 
 /**
  * print_list - a function that prints the elements of a linked list.
- * @h: the head node of the list.
- * Return: the number of nodes if successful.
+ * @h: the list.
+ * Return: the number of elements
  */
 
 size_t print_list(const list_t *h)
